@@ -116,15 +116,12 @@ keyRowParentDiv.addEventListener('click',(event)=>{
       event.target.className = "chosen";
     } else {
       event.target.className = "chosen lose";
+      missed += 1;
+      looseHearts();
     }
+    checkWin();
   }
 
-  if (!letterFound) {
-    missed += 1;
-    looseHearts();
-  }
-
-  checkWin();
 })
 
 /*******************************************************************************
