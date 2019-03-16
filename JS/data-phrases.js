@@ -6,7 +6,7 @@ const phrases = [
                   "Listen if you want to be heard",
                   "I have to act to live",
                   "One day or day one you decide",
-                  "nothing is impossible",
+                  "Nothing is impossible",
                   "I can I will watch me",
                   "Life is better when you are laughing"
 ];
